@@ -32,7 +32,7 @@ function Caneca(nome, preco, material, estoque){
 
     Object.defineProperty(this, 'estoque', {
        enumerable: true,
-       configurable: true; 
+       configurable: true,
        get: () => estoque,
        set: (valor) => {
         if (typeof valor !== 'number') return;
