@@ -7,7 +7,7 @@ class Pessoa {
     }
 
     falar() {
-        console.log(`${this.noem} ${this.sobrenome} esta falando`)
+        console.log(`${this.nome} ${this.sobrenome} esta falando`);
     }
 }
 

@@ -13,7 +13,7 @@ console.log(num3);
 console.log(num4);
 
 //pegar o numero maior e com min o menor
-console.log(Math.max(1, 2, 45, 786, -092, 93, 1000, 11837));
+console.log(Math.max(1, 2, 45, 786, -92, 93, 1000, 11837));
 
 //pegar numero aleatorio
 const aleatorio = Math.random() * (10 - 5) + 5;
